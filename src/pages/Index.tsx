@@ -5,6 +5,7 @@ import HeritageSection from '@/components/HeritageSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import InstagramFeed from '@/components/InstagramFeed';
 import Footer from '@/components/Footer';
+import CategorySelection from '@/components/CategorySelection';
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
+        <CategorySelection />
         <FeaturedCollections />
         <HeritageSection />
         <TestimonialsSection />
